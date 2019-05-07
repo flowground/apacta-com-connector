@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "required": false,
+            "type": "string"
+        },
+        "cvr": {
+            "type": "string"
+        },
+        "ean": {
+            "type": "string"
+        },
+        "erp_id": {
+            "type": "string"
+        },
+        "contact_type": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "city": {
+            "type": "string"
+        }
+    }
+}

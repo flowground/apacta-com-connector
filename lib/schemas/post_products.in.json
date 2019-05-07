@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "barcode": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "buying_price": {
+                    "format": "double",
+                    "type": "number"
+                },
+                "description": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "erp_id": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "name": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "product_number": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "selling_price": {
+                    "format": "double",
+                    "type": "number"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "type": "object"
+        }
+    }
+}

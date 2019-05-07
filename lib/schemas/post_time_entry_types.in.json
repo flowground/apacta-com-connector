@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "description": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "name": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "time_entry_interval_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "time_entry_value_type_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "time_entry_interval_id",
+                "time_entry_value_type_id",
+                "name"
+            ],
+            "type": "object"
+        }
+    }
+}

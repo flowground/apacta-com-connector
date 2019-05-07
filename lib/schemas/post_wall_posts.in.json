@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "message": {
+                    "type": "string"
+                },
+                "project_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "project_id",
+                "message"
+            ],
+            "type": "object"
+        }
+    }
+}

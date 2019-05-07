@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "barcode": {
+            "required": false,
+            "type": "string"
+        },
+        "name": {
+            "required": false,
+            "type": "string"
+        },
+        "project_id": {
+            "required": false,
+            "type": "string",
+            "format": "uuid"
+        },
+        "currently_rented": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

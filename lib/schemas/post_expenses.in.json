@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "contact_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "currency_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "delivery_date": {
+                    "format": "date",
+                    "type": "string"
+                },
+                "description": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "project_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "reference": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "short_text": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "supplier_invoice_number": {
+                    "maxLength": 255,
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "material_id": {
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+        },
+        "material_rental_id": {
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+        }
+    }
+}

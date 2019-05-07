@@ -1,0 +1,43 @@
+{
+    "type": "object",
+    "properties": {
+        "show_all": {
+            "required": false,
+            "type": "boolean",
+            "default": false
+        },
+        "contact_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "project_status_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "project_status_ids": {
+            "type": "array",
+            "items": {
+                "format": "uuid",
+                "type": "string"
+            }
+        },
+        "name": {
+            "type": "string"
+        },
+        "erp_project_id": {
+            "type": "string"
+        },
+        "erp_task_id": {
+            "type": "string"
+        },
+        "start_time_gte": {
+            "type": "string"
+        },
+        "start_time_lte": {
+            "type": "string"
+        },
+        "start_time_eq": {
+            "type": "string"
+        }
+    }
+}

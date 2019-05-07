@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "checkin_latitude": {
+                    "type": "string"
+                },
+                "checkin_longitude": {
+                    "type": "string"
+                },
+                "checkout_latitude": {
+                    "type": "string"
+                },
+                "checkout_longitude": {
+                    "type": "string"
+                },
+                "project_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "product_number": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "barcode": {
+            "type": "string"
+        },
+        "vendor_id": {
+            "type": "string"
+        }
+    }
+}

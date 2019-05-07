@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": {
+            "required": true,
+            "type": "string"
+        },
+        "integration_feature_setting_id": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "form_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "from_time": {
+                    "format": "dateTime",
+                    "type": "string"
+                },
+                "is_all_day": {
+                    "type": "boolean"
+                },
+                "project_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "sum": {
+                    "description": "Amount of seconds - should only be included when using is_all_day, otherwise will be calculated from from_time and to_time",
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "time_entry_type_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "to_time": {
+                    "format": "dateTime",
+                    "type": "string"
+                },
+                "user_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "user_id",
+                "time_entry_type_id"
+            ],
+            "type": "object"
+        }
+    }
+}

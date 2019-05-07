@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "material_id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "form_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "from_date": {
+                    "format": "dateTime",
+                    "type": "string"
+                },
+                "is_invoiced": {
+                    "format": "dateTime",
+                    "type": "string"
+                },
+                "material_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "project_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "quantity": {
+                    "format": "float",
+                    "type": "number"
+                },
+                "to_date": {
+                    "format": "dateTime",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

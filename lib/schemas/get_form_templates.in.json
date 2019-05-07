@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "identifier": {
+            "required": false,
+            "type": "string"
+        },
+        "pdf_template_identifier": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        }
+    }
+}

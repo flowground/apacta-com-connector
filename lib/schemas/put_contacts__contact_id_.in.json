@@ -1,0 +1,64 @@
+{
+    "type": "object",
+    "properties": {
+        "contact_id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "address": {
+                    "description": "Street address",
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "city_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "contact_types": {
+                    "properties": {
+                        "_ids": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                "cvr": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "description": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "email": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "erp_id": {
+                    "description": "If company has integration to an ERP system, and the contacts are synchronized, this will be the ERP-systems ID of this contact",
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "name": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "phone": {
+                    "description": "Format like eg. `28680133` or `046158971404`",
+                    "maxLength": 32,
+                    "type": "string"
+                },
+                "website": {
+                    "maxLength": 255,
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

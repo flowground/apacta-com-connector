@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "expense_id": {
+            "required": true,
+            "type": "string"
+        },
+        "file_id": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

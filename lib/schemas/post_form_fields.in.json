@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "comment": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "content_value": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "file_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "form_field_type_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "form_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "form_template_field_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "placement": {
+                    "format": "int32",
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "buying_price": {
+                    "format": "float",
+                    "type": "number"
+                },
+                "currency_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "expense_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "quantity": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "selling_price": {
+                    "format": "float",
+                    "type": "number"
+                },
+                "text": {
+                    "maxLength": 255,
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "form_template_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "project_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "project_id",
+                "form_template_id"
+            ],
+            "type": "object"
+        }
+    }
+}

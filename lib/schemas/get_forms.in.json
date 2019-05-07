@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "extended": {
+            "type": "string",
+            "enum": [
+                true,
+                false
+            ]
+        },
+        "date_from": {
+            "type": "string",
+            "format": "Y-m-d"
+        },
+        "date_to": {
+            "type": "string",
+            "format": "Y-m-d"
+        },
+        "project_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "created_by_id": {
+            "required": false,
+            "type": "string"
+        },
+        "form_template_id": {
+            "type": "string"
+        }
+    }
+}

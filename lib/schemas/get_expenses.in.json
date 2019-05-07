@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "created_by_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "company_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "contact_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "project_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "gt_created": {
+            "type": "string",
+            "format": "date"
+        },
+        "lt_created": {
+            "type": "string",
+            "format": "date"
+        }
+    }
+}

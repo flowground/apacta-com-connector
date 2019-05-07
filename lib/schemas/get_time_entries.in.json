@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "user_id": {
+            "type": "string"
+        },
+        "form_id": {
+            "type": "string"
+        },
+        "project_id": {
+            "type": "string"
+        },
+        "gt_from_time": {
+            "type": "string"
+        },
+        "lt_from_time": {
+            "type": "string"
+        },
+        "gt_to_time": {
+            "type": "string"
+        },
+        "lt_to_time": {
+            "type": "string"
+        },
+        "lt_sum": {
+            "type": "string"
+        },
+        "gt_sum": {
+            "type": "string"
+        }
+    }
+}

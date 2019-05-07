@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "project_id": {
+            "required": true,
+            "type": "string"
+        },
+        "project_file_id": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

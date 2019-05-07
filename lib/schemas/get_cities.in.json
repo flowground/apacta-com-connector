@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "zip_code": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

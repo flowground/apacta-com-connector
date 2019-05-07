@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "message": {
+                    "type": "string"
+                },
+                "wall_post_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "wall_post_id",
+                "message"
+            ],
+            "type": "object"
+        }
+    }
+}

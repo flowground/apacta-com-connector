@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "invoice_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "product_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "user_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "name": {
+            "type": "string"
+        },
+        "discount_text": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "wall_comment_id": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

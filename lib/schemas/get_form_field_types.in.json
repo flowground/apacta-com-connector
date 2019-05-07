@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "required": false,
+            "type": "string"
+        },
+        "identifier": {
+            "type": "string"
+        }
+    }
+}

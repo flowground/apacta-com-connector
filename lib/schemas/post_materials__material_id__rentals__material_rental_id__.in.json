@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "material_id": {
+            "required": true,
+            "type": "string"
+        },
+        "material_rental_id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "barcode": {
+                    "type": "string"
+                },
+                "billing_cysle": {
+                    "enum": [
+                        "hourly",
+                        "daily",
+                        "weekly"
+                    ],
+                    "type": "string"
+                },
+                "cost_price": {
+                    "format": "float",
+                    "type": "number"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "is_single_usage": {
+                    "type": "boolean"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "selling_price": {
+                    "format": "float",
+                    "type": "number"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

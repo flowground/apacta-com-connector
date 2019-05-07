@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "contact_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "description": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "erp_project_id": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "erp_task_id": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "name": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "project_status_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "start_time": {
+                    "format": "datetime",
+                    "type": "string"
+                },
+                "street_name": {
+                    "maxLength": 255,
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "type": "object"
+        }
+    }
+}

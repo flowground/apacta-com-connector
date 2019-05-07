@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "first_name": {
+            "required": false,
+            "type": "string"
+        },
+        "last_name": {
+            "required": false,
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "stock_location_id": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "material_id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "form_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "material_rental_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "to_date": {
+                    "format": "dateTime",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

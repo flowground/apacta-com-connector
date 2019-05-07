@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "description": {
+                    "maxLength": 8192,
+                    "type": "string"
+                },
+                "discount_percent": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "discount_text": {
+                    "maxLength": 255,
+                    "type": "string"
+                },
+                "invoice_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "name": {
+                    "maxLength": 2048,
+                    "type": "string"
+                },
+                "product_id": {
+                    "format": "uuid",
+                    "type": "string"
+                },
+                "quantity": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "selling_price": {
+                    "format": "float",
+                    "type": "number"
+                },
+                "user_id": {
+                    "format": "uuid",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

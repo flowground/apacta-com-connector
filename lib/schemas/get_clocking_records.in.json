@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "active": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

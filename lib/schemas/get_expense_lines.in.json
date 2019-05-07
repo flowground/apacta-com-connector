@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "created_by_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "currency_id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "expense_id": {
+            "type": "string",
+            "format": "uuid"
+        }
+    }
+}

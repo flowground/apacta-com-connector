@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "is_read": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}
